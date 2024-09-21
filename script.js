@@ -30,7 +30,8 @@ t1.to("#loader",{
     opacity:0,
     duration:1.5,
     delay:2.5,
-    stagger:0.5    
+    stagger:0.5
+       
 })
 
 t1.from("#page1",{
@@ -66,4 +67,4 @@ function cursor(){
        ease: "cubic-bezier(0.23, 1, 0.320, 1)"
     });
 }
-cursor();
+// cursor();
